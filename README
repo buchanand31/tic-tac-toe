@@ -1,0 +1,10 @@
+This is my first implementation of the minimax algorithm. This basic tic-tac-toe game features only 2 levels:
+
+The first level plays like a todler, just randomly placing their character on the octothorpe.
+
+The second level uses a full on minimax algorithm to always play the best move. Since the tic-tac-toe game tree is "relatively" small,
+  this algorithm looks all the way down to a leaf. No pruning or branch limitations here. The goal is to improve this algorithm to look
+  1 move ahead, and then maybe 2 moves ahead, etc so that it is beatable. Right now, I can't beat it (so OBVIOUSLY it can't be beat).
+  
+This is a very basic algorithm, but this is just me getting my feet wet. The goal is to make a Connect-Four minimax algorithm that has to
+  take into account game-tree size by limiting how far it looks down and alpha-beta pruning.
